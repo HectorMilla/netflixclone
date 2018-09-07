@@ -8,8 +8,7 @@ const Slider = props => {
       className="movie "
       style={{
         background: `url(https://image.tmdb.org/t/p/w500/${image})`,
-        backgroundSize: "cover",
-        height: "100px"
+        backgroundSize: "cover"
       }}
     >
       <div>

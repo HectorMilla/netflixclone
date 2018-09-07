@@ -12,6 +12,29 @@ class Header extends Component {
           />
         </div>
         <div className="nav-items">
+          <div className="dropdown">
+            <button
+              className="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenu2"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Browse
+            </button>
+            <div className="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <button className="dropdown-item" type="button">
+                TV Shows
+              </button>
+              <button className="dropdown-item" type="button">
+                Movies
+              </button>
+              <button className="dropdown-item" type="button">
+                Recently Added
+              </button>
+            </div>
+          </div>
           <div className="nav-link">
             <Link to="/">Home</Link>
           </div>
