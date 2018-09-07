@@ -1,0 +1,119 @@
+html {
+  background: #141414;
+  height: 100%;
+  width: 100%;
+  color: #e5e5e5;
+}
+.header {
+  z-index: 99;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  color: #e5e5e5;
+  background: rgba($color: #141414, $alpha: 0.4); //   width: 100%;
+  font-size: 0.7rem;
+  .logo {
+    align-self: center;
+    margin-left: 1rem;
+    img {
+      height: 2rem;
+    }
+  }
+  .nav-items {
+    display: flex;
+    // flex-direction: row;
+    // justify-content: space-between;
+    align-items: center;
+    .nav-link {
+      margin: 0 0.5rem;
+      a {
+        text-decoration: none;
+        color: #e5e5e5;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .nav-tools {
+    display: flex;
+    align-items: center;
+    .tools {
+      margin: 0 0.5rem;
+    }
+    .fa-caret-down {
+      margin-right: 0.5rem;
+    }
+    img {
+      height: 3rem;
+    }
+  }
+}
+.index {
+  background: #141414;
+  height: 100%;
+  margin: 5rem 0;
+  .home {
+    margin: 3rem 0 0 3rem;
+
+    .heading,
+    h5 {
+      margin: 2rem 0 0.5rem 0;
+      display: block;
+      color: #e5e5e5;
+      font-size: 0.8rem;
+    }
+    .slider {
+      display: flex;
+
+      width: 100%;
+      overflow: scroll;
+      overflow-y: hidden;
+
+      .movie {
+        display: inline;
+        position: relative;
+
+        div {
+          width: 8rem;
+          visibility: hidden;
+          text-align: center;
+
+          span {
+            font-size: 0.8rem;
+          }
+        }
+      }
+    }
+    .continue {
+      overflow: hidden;
+    }
+  }
+}
+
+// @media only screen and (min-width: 565px) {
+//   #carouselExampleSlidesOnly {
+//     width: 100%;
+//     height: 280px;
+//     .carousel-inner {
+//       height: 280px;
+//       width: 100%;
+//       div {
+//         height: 280px;
+//         width: 100%;
+//         background-size: cover !important;
+//         background-repeat: no-repeat !important;
+//         background-position: center !important;
+//       }
+//     }
+//   }
+// }
+
+// @media only screen and (max-width: 564px) {
+//   /* For mobile phones: */
+//   #carouselExampleSlidesOnly {
+//     display: none;
+//   }
+// }
