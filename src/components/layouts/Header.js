@@ -34,7 +34,7 @@ class Header extends Component {
 
           <img
             src="https://elcorreodelsol.com/sites/default/files/avatares/asainaang.jpg"
-            alt="profile picture"
+            alt="profile"
           />
           <i className="fas fa-caret-down" />
         </div>

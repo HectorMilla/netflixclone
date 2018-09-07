@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+
 import { Consumer } from "../context";
 import Slider from "./Slider";
 // import HomeBg from "./HomeBg";
@@ -11,9 +11,7 @@ class MyList extends Component {
         {value => {
           const {
             moviesTrending,
-            moviesAction,
-            moviesReality,
-            moviesAnimation,
+
             moviesComedy
           } = value;
 
